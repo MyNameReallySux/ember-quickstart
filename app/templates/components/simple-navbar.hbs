@@ -1,0 +1,13 @@
+<nav class="navbar fixed-top justify-content-between navbar-toggleable-md navbar-inverse bg-tranparent">
+	<div class="container">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		{{#if title}}{{#link-to 'home' class="navbar-brand"}}Space Sux{{/link-to}}{{/if}}
+		<div class="collapse navbar-collapse" id="Navbar">
+			<div class="navbar-nav">
+				{{yield}}
+			</div>
+		</div>
+	</div>
+</nav>

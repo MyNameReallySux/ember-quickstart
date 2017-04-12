@@ -1,0 +1,13 @@
+ <div class="absolute-wrapper">
+	<div id="{{id}}" class="absolute-content">
+	    {{yield}}
+	</div>
+	<div class="overlay"></div>
+	<div class="image-slider owl-carousel">
+		{{#each imgs as |img|}}
+		<div>
+			<div class="background {{imageClass}}" data-background="{{img}}"></div>
+		</div>
+		{{/each}}
+	</div>
+</div>
