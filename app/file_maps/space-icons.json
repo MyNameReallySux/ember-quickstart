@@ -1,0 +1,99 @@
+{
+	"default": {
+		"_root": "/images/icons/124539-space-elements",
+		
+		// Earth-Based Structures
+		"nasa": "nasa.svg",
+		"observatory": "observatory.svg",
+		"radar": "radar.svg",
+		"radar-2": "radar-1.svg",
+		"telescope": "telescope.svg",
+		
+		// Spacecraft & Satellites
+		"hubble": "hubble-space-telescope.svg",
+		"rocket": "rocket-ship.svg",
+		"rocket-2": "rocket-ship-1.svg",
+		"rocket-3": "rocket-ship-2.svg",
+		"satellite": "satellite.svg",
+		"satellite-2": "satellite-2.svg",
+		"space-ship": "space-ship.svg",
+		"space-shuttle": "space-shuttle.svg",
+		"space-shuttle-2": "space-shuttle-1.svg",
+		"space-shuttle-3": "space-shuttle-2.svg",
+		"space-station": "space-station.svg",
+		"space-station-2": "space-station-2.svg",
+		"voyager": "voyager.svg",
+		
+		// Landers, Rovers, and Capsules
+		"lander": "lander.svg",
+		"lander-2": "lander-2.svg",
+		"mars-rover": "mars-rover.svg",
+		"moon-rover": "moon-rover.svg",
+		"moon-rover-2": "moon-rover-1.svg",
+		"space-capsule": "space-capsule.svg",
+		"space-capsule-2": "space-capsule-1.svg",
+		"space-capsule-3": "space-capsule-2.svg",
+		
+		// Generic Bodies
+		"asteroid": "asteroid.svg",
+		"black-hole": "black-hole.svg",
+		"comet": "comet.svg",
+		"galaxy": "galaxy.svg",
+		"meteorites": "meteorites.svg",
+		"planet": "planet.svg",
+		"planet-2": "destroyed-planet.svg",
+		"solar-system": "solar-system.svg",
+		"star": "star.svg",
+
+		// Named Bodies
+		"earth": "planet-earth.svg",
+		"earth-2": "planet-earth-1.svg",
+		"jupiter": "jupiter.svg",
+		"mars": "mars.svg",
+		"moon": "moon.svg",
+		"saturn": "saturn.svg",
+		"sun": "sun.svg",
+		"uranus": "uranus.svg",
+		
+		// Other
+		"alien": "alien.svg",
+		"alien-2": "alien-1.svg",
+		"astronaut": "astronaut.svg",
+		"big-dipper": "big-dipper.svg",
+		"space-suit": "space-suit.svg",
+		"ufo": "ufo.svg"
+	},
+	"space-sci": {
+		"_root": "/images/icons/361659-space-and-science",
+		
+		"asteroid": "101-asteroid.svg",
+		"atom": "101-atom.svg",
+		"chem": "101-chemistry.svg",
+		"chem-2": "101-chemistry-1.svg",
+		"chem-3": "101-chemistry-2.svg",
+		"comet": "101-comet.svg",
+		"constellation": "101-constellation.svg",
+		"galaxy": "101-galaxy.svg",
+		"planet": "101-moon.svg",
+		"rocket": "101-rocket.svg",
+		"rocket-2": "101-rocket-1.svg",
+		"rocket-3": "101-rocket-launch.svg",
+		"sat-dish": "101-satellite-dish.svg",
+		"shooting-star": "101-shooting-star.svg",
+		"solar-system": "101-solar-system.svg",
+		
+		"earth": "101-planet-earth.svg",
+		"jupiter": "101-jupiter.svg",
+		"mars": "101-mars.svg",
+		"mercury": "101-mercury.svg",
+		"moon": "101-moon.svg",
+		"neptune": "101-neptune.svg",
+		"saturn": "101-saturn.svg",
+		"venus": "101-venus.svg",
+		"uranus": "101-uranus.svg",
+		
+		
+		
+	}
+	
+}
