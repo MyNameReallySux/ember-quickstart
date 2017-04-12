@@ -1,7 +1,7 @@
 {
-  "name": "ember-quickstart",
+  "name": "space-demo",
   "version": "0.0.0",
-  "description": "Small description for ember-quickstart goes here",
+  "description": "This is a Demo site, using Ember CLI. The purpose is to test out backend features and Ember features.",
   "license": "MIT",
   "author": "",
   "directories": {
