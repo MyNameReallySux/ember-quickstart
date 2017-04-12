@@ -1,0 +1,53 @@
+<div class="PlanetsPage">
+	<section class="banner">
+		{{#image-slider 
+			id="MainCarousel" 
+			data="/images/slides/planets.jpg"}}
+			<h1>Planets</h1>
+			<p>This is a site about space!</p>
+		{{/image-slider}}
+	</section>
+	<section id="PlanetsList" class="absolute-wrapper">
+		<div class="overlay double-fade"></div>
+		<div class="relative-content">
+			<div class="container">
+				<h1>What is a planet?</h1>
+				<hr/>
+				<p>
+					A planet is a rocky world orbiting a central star (or stars). Scientists used to believe that planets around stars were rare, but that thinking has changed. Astronomers have discovered hundreds of planets outside of our solar system, called ExoPlanets.
+				</p>
+				<p>
+					 Our solar system is home to 8 planets, 4 rocky worlds and 4 gas giants. Earth is the planet you are on right now, as well as all life we've ever known. Click below to learn more about a particular planet.
+				</p>
+				<div class="row">
+					<div class="col-6 col-md-3">
+						{{space-icon 'space-sci/mercury' class="planet mercury"}}
+					</div>
+					<div class="col-6 col-md-3">
+						{{space-icon 'space-sci/venus' class="planet venus"}}
+					</div>
+					<div class="col-6 col-md-3">
+						{{space-icon 'space-sci/earth' class="planet earth"}}
+					</div>
+					<div class="col-6 col-md-3">
+						{{space-icon 'space-sci/mars' class="planet mars"}}
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6 col-md-3">
+						{{space-icon 'space-sci/jupiter' class="planet jupiter"}}
+					</div>
+					<div class="col-6 col-md-3">
+						{{space-icon 'space-sci/saturn' class="planet saturn"}}
+					</div>
+					<div class="col-6 col-md-3">
+						{{space-icon 'space-sci/neptune' class="planet neptune"}}
+					</div>
+					<div class="col-6 col-md-3">
+						{{space-icon 'space-sci/uranus' class="planet uranus"}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>

@@ -1,0 +1,75 @@
+<div id="Homepage">
+	<section id="HomeBanner" class="banner">
+		{{#image-slider 
+			id="MainCarousel" 
+			data="/images/slides/earth.jpg"}}
+			<h1>Space {{space-icon "space-station" class="inline medium"}} Sux</h1>
+			<p>This is a site about space!</p>
+		{{/image-slider}}
+	</section>
+	<section class="absolute-wrapper">
+		<div class="overlay double-fade"></div>
+		<div class="relative-content">
+			<div class="container">
+				<h1>In a Galaxy Far Far Away...</h1>
+				<hr/>
+				<p>
+					This website is meant to educate people about all things outer space. This includes cosmology, astrology, physics, and more. I have always loved learning about these things and wish to put my web development skills to the test.
+				</p>
+				<p>
+					If you have questions, comments, suggestions, content you would like to submit to the site, or would like more information about how the site works, contact me at <a href="mailto:chris.coppola315@gmail.com">chris.coppola315@gmail.com</a>
+				</p>
+				<div id="Pages" >
+					<div class="row">
+						<div class="col-4 square">
+							{{space-icon "earth"}}
+							{{#link-to 'home'}}Earth{{/link-to}}
+						</div>
+						<div class="col-4 square">
+							{{space-icon "solar-system"}}
+							{{#link-to 'home'}}Solar System{{/link-to}}
+						</div>
+						<div class="col-4 square">
+							{{space-icon "planet"}}
+							{{#link-to 'home'}}ExoPlanets{{/link-to}}
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-4 square">
+							{{space-icon "star"}}
+							{{#link-to 'home'}}Stars{{/link-to}}
+						</div>
+						<div class="col-4 square">
+							{{space-icon "galaxy"}}
+							{{#link-to 'home'}}Galaxies{{/link-to}}
+						</div>
+						<div class="col-4 square">
+							{{space-icon "black-hole"}}
+							{{#link-to 'home'}}Black Holes{{/link-to}}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	{{rocket-rule}}
+	<section id="Quotes" class="screen absolute-wrapper">
+		<div class="overlay double-fade"></div>
+		<div class="background screen" data-background="/images/slides/nebula.jpg"></div>
+		<div class="absolute-content">
+			<div class="container">
+				<div class="owl-carousel">
+					{{#each model.quotes as |quote|}}
+						<div class="testimonial">
+							{{fa-icon 'comments'}}
+							<blockquote>
+								<p>{{quote.content}}</p>
+							</blockquote>
+							<cite><strong>{{quote.author}}</strong> / {{quote.company}}</cite>
+						</div>
+					{{/each}}
+				</div>
+			</div>
+	    </div>
+	</section>
+</div>

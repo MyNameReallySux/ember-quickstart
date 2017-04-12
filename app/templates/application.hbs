@@ -1,5 +1,48 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<header>
+	{{#simple-navbar}}
+		{{#link-to 'home' class="nav-item nav-link"}}{{fa-icon 'home'}} Home <span class="sr-only"></span>{{/link-to}}
+		{{#link-to 'about' class="nav-item nav-link"}}{{fa-icon 'rocket'}} About <span class="sr-only"></span>{{/link-to}}
+		{{#link-to 'planets' class="nav-item nav-link"}}{{fa-icon 'globe'}} Planets <span class="sr-only"></span>{{/link-to}}
+		{{#link-to 'stars' class="nav-item nav-link"}}{{fa-icon 'star'}} Stars <span class="sr-only"></span>{{/link-to}}
+	{{/simple-navbar}}
+</header>
+<main>
+	{{outlet}}
+</main>
 
-{{outlet}}
+<footer>
+	<section id="Footer" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-12 col-lg-6">
+					<h4>About Me</h4>
+					<p>My name is Chris Coppola, I am a passionate web designer. It's literally all I do! If you would like to contact me, please use the form on the right, or any of the social links below.</p>
+					<a href="/" class="social circle">{{fa-icon 'facebook'}}</a>
+					<a href="/" class="social circle">{{fa-icon 'twitter'}}</a>
+					<a href="/" class="social circle">{{fa-icon 'linkedin'}}</a>
+				</div>
+				<div class="col-xs-12 col-md-4 col-lg-2">
+					<h4>Quick Links</h4>
+					<ul id="QuickLinks">
+						<li>{{#link-to 'home'}}{{fa-icon 'home'}} Home <span class="sr-only"></span>{{/link-to}}</li>
+						<li>{{#link-to 'about'}}{{fa-icon 'rocket'}} About <span class="sr-only"></span>{{/link-to}}</li>
+						<li>{{#link-to 'planets'}}{{fa-icon 'globe'}} Planets <span class="sr-only"></span>{{/link-to}}</li>
+						<li>{{#link-to 'stars'}}{{fa-icon 'star'}} Stars <span class="sr-only"></span>{{/link-to}}</li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-md-8 col-lg-4">
+					<h4>Contact Me</h4>
+					<form class="form" id="ContactForm">
+						<div class="form-group">
+							<input id="ContactName" type="text" class="form-control" placeholder="Your Name">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" placeholder="Your Message"></textarea>
+						</div>
+						<input type="submit" class="btn btn-space">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+</footer>
